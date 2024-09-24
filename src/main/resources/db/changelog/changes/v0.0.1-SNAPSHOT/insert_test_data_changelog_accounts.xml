@@ -1,0 +1,203 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="insert-accounts-table" author="evgenijdomagaev (generated)">
+        <insert tableName="accounts">
+            <column name="id" value="4f8e1b1d-482d-4f51-9b16-64f6274c019e"/>
+            <column name="username" value="Account1"/>
+            <column name="password" value="$2y$10$8fiBAIWoO60SBTymAU4wmuKB3q3vLdwNZ/XfBgmGvohI/CrZkFUDm"/>
+            <column name="type" value="ONLINE_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="1000.00"/>
+            <column name="currency" value="USD"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="f95a4c9a-3a5b-4c22-8b56-73b2a3e831df"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="f7d82e3a-962f-44f4-89ee-9c37b4a6e14c"/>
+            <column name="username" value="Account 2"/>
+            <column name="password" value="x2K$eF6l1ZoU"/>
+            <column name="type" value="ONLINE_INVESTING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="2000.00"/>
+            <column name="currency" value="EUR"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="e2d98f62-71a6-4e65-9c4a-63c5d1e2e058"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="3b34d3ea-2c1b-4c57-a11c-cd05c5f54b88"/>
+            <column name="username" value="Account 3"/>
+            <column name="password" value="Y7n@R4t9BvWc"/>
+            <column name="type" value="BUSINESS_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="3000.00"/>
+            <column name="currency" value="UAH"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="9b4e6a3d-5d28-4b60-932d-b8c4d0f24d9a"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="b6f6b85e-42e1-46d0-9c5e-84f4fc2d2052"/>
+            <column name="username" value="Account 4"/>
+            <column name="password" value="Q9w^T6s2LpMx"/>
+            <column name="type" value="ONLINE_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="4000.00"/>
+            <column name="currency" value="RUB"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="a6e3b7f4-8f55-4d97-9649-7c8b16b53c72"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="c89fc5f2-ef70-4e43-a8a4-6b68bfe7b2a0"/>
+            <column name="username" value="Account 5"/>
+            <column name="password" value="a5H%vN3k8ZrJ"/>
+            <column name="type" value="ONLINE_INVESTING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="5000.00"/>
+            <column name="currency" value="USD"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="8f5a6b19-2c31-45a1-9b1e-1e2a3c7d9a85"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="7a7b56e1-5a7a-44b0-83ee-45f0568f1d83"/>
+            <column name="username" value="Account 6"/>
+            <column name="password" value="F0g#S8m2XyQp"/>
+            <column name="type" value="BUSINESS_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="6000.00"/>
+            <column name="currency" value="EUR"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="c8d3b5a7-7a6f-4c25-a1b8-32e6d2a1b9f2"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="f0e7d4e4-8c8c-4c48-9182-50ef2d45722c"/>
+            <column name="username" value="Account 7"/>
+            <column name="password" value="p3C^jR9d7TzV"/>
+            <column name="type" value="ONLINE_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="7000.00"/>
+            <column name="currency" value="UAH"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="2b5c8e6a-4d2e-4d83-9c15-8e1a4a6b8d7f"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="b83d7d57-3c56-4d44-b3d5-0e4a4e7b626b"/>
+            <column name="username" value="Account 8"/>
+            <column name="password" value="W6b*F1k8JxNz"/>
+            <column name="type" value="ONLINE_INVESTING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="8000.00"/>
+            <column name="currency" value="RUB"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="f7a8c1e2-69d3-4e27-82f9-bc6d34a7d9e3"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="2d1b6f5c-97ac-462e-9e1a-2b739b492a86"/>
+            <column name="username" value="Account 9"/>
+            <column name="password" value="h4G$yM2t7PqK"/>
+            <column name="type" value="BUSINESS_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="9000.00"/>
+            <column name="currency" value="USD"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="9d5e6c3b-1d8e-4f5a-8d1c-3e7f4a1c9b3d"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="d3d5f6b3-35c1-4b80-92c2-94f72a95c5f7"/>
+            <column name="username" value="Account 10"/>
+            <column name="password" value="K1n^S7v5XzRm"/>
+            <column name="type" value="ONLINE_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="10000.00"/>
+            <column name="currency" value="EUR"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="4c6a5b7d-9f2e-4c6b-85a7-d2e8c9b4a1c0"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="4d10b0c1-0702-4ad4-bc3b-9d91d3a25b2c"/>
+            <column name="username" value="Account 11"/>
+            <column name="password" value="J8w#D3l6YqTp"/>
+            <column name="type" value="ONLINE_INVESTING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="11000.00"/>
+            <column name="currency" value="UAH"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="f95a4c9a-3a5b-4c22-8b56-73b2a3e831df"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="bf0b39a8-d50b-4b67-b48f-e71f03260d56"/>
+            <column name="username" value="Account 12"/>
+            <column name="password" value="t9H*Z4s1BvQj"/>
+            <column name="type" value="BUSINESS_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="12000.00"/>
+            <column name="currency" value="RUB"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="e2d98f62-71a6-4e65-9c4a-63c5d1e2e058"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="12b5e6d8-2ae0-4d09-b35c-6e6b540b7cf0"/>
+            <column name="username" value="Account 13"/>
+            <column name="password" value="M2k%R5y7GxLn"/>
+            <column name="type" value="ONLINE_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="13000.00"/>
+            <column name="currency" value="USD"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="9b4e6a3d-5d28-4b60-932d-b8c4d0f24d9a"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="7c27c9e7-8937-423f-8d71-9f1d5804c9d2"/>
+            <column name="username" value="Account 14"/>
+            <column name="password" value="v6C^j3P8zWfT"/>
+            <column name="type" value="ONLINE_INVESTING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="14000.00"/>
+            <column name="currency" value="EUR"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="a6e3b7f4-8f55-4d97-9649-7c8b16b53c72"/>
+        </insert>
+
+        <insert tableName="accounts">
+            <column name="id" value="1a6c1d62-4b2d-4d7f-b0dc-bcbd8d4f2d08"/>
+            <column name="username" value="Account 15"/>
+            <column name="password" value="N5d#S2k9LrXp"/>
+            <column name="type" value="BUSINESS_BANKING"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="balance" value="15000.00"/>
+            <column name="currency" value="UAH"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="client_id" value="8f5a6b19-2c31-45a1-9b1e-1e2a3c7d9a85"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

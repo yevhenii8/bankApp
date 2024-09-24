@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    banner-mode: off
+
+  datasource:
+    url: ${URL}
+    username: ${USERNAME}
+    password: ${PASSWORD}
+
+  liquibase:
+    change-log: classpath:db/changelog/changelog-master.xml
+    drop-first: true
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+
+    open-in-view: false
+
+variables:
+  jwtSecret: "secret"
+  jwtExpirationMS: 864_000_000

@@ -1,0 +1,158 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="insert-clients-table" author="evgenijdomagaev (generated)">
+        <insert tableName="clients">
+            <column name="id" value="f95a4c9a-3a5b-4c22-8b56-73b2a3e831df"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX001"/>
+            <column name="first_name" value="John"/>
+            <column name="last_name" value="Doe"/>
+            <column name="email" value="john.doe@example.com"/>
+            <column name="address" value="123 Main St, City, Country"/>
+            <column name="phone" value="+1234567890"/>
+            <column name="ssn" value="123-45-6789"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b12"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="e2d98f62-71a6-4e65-9c4a-63c5d1e2e058"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX002"/>
+            <column name="first_name" value="Jane"/>
+            <column name="last_name" value="Smith"/>
+            <column name="email" value="jane.smith@example.com"/>
+            <column name="address" value="456 Elm St, City, Country"/>
+            <column name="phone" value="+1234567891"/>
+            <column name="ssn" value="987-65-4321"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="b5f8c2d7-0a6b-4f1b-9c7e-d5f8c2a6b7e9"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="9b4e6a3d-5d28-4b60-932d-b8c4d0f24d9a"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX003"/>
+            <column name="first_name" value="Michael"/>
+            <column name="last_name" value="Johnson"/>
+            <column name="email" value="michael.johnson@example.com"/>
+            <column name="address" value="789 Oak St, City, Country"/>
+            <column name="phone" value="+1234567892"/>
+            <column name="ssn" value="111-22-3333"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="a8e3d7f6-4d8b-4c2e-85b1-1a6c5f2d9c73"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="a6e3b7f4-8f55-4d97-9649-7c8b16b53c72"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX004"/>
+            <column name="first_name" value="Emily"/>
+            <column name="last_name" value="Davis"/>
+            <column name="email" value="emily.davis@example.com"/>
+            <column name="address" value="101 Pine St, City, Country"/>
+            <column name="phone" value="+1234567893"/>
+            <column name="ssn" value="222-33-4444"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="c2d9b3e8-5d7a-4e6f-9b4c-7e8a2b1d3f7a"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="8f5a6b19-2c31-45a1-9b1e-1e2a3c7d9a85"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX005"/>
+            <column name="first_name" value="David"/>
+            <column name="last_name" value="Wilson"/>
+            <column name="email" value="david.wilson@example.com"/>
+            <column name="address" value="202 Maple St, City, Country"/>
+            <column name="phone" value="+1234567894"/>
+            <column name="ssn" value="333-44-5555"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="6e5a9d7b-8c4f-4d1b-a3e9-5f2c7a8b1d3e"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="c8d3b5a7-7a6f-4c25-a1b8-32e6d2a1b9f2"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX006"/>
+            <column name="first_name" value="Sophia"/>
+            <column name="last_name" value="Brown"/>
+            <column name="email" value="sophia.brown@example.com"/>
+            <column name="address" value="303 Cedar St, City, Country"/>
+            <column name="phone" value="+1234567895"/>
+            <column name="ssn" value="444-55-6666"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="4f2d9e8c-6b1a-4d7e-8a3b-9e5c7f1b2d4c"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="2b5c8e6a-4d2e-4d83-9c15-8e1a4a6b8d7f"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX007"/>
+            <column name="first_name" value="James"/>
+            <column name="last_name" value="Taylor"/>
+            <column name="email" value="james.taylor@example.com"/>
+            <column name="address" value="404 Birch St, City, Country"/>
+            <column name="phone" value="+1234567896"/>
+            <column name="ssn" value="555-66-7777"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="9d6e5c8b-1a3f-4e2d-8c7b-5f9a2d3e6b1c"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="f7a8c1e2-69d3-4e27-82f9-bc6d34a7d9e3"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX008"/>
+            <column name="first_name" value="Olivia"/>
+            <column name="last_name" value="Anderson"/>
+            <column name="email" value="olivia.anderson@example.com"/>
+            <column name="address" value="505 Ash St, City, Country"/>
+            <column name="phone" value="+1234567897"/>
+            <column name="ssn" value="666-77-8888"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="a7b2c5d9-4e6f-4d1b-8e3a-7c9b2f5d1e8e"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="9d5e6c3b-1d8e-4f5a-8d1c-3e7f4a1c9b3d"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX009"/>
+            <column name="first_name" value="Isabella"/>
+            <column name="last_name" value="Martinez"/>
+            <column name="email" value="isabella.martinez@example.com"/>
+            <column name="address" value="606 Spruce St, City, Country"/>
+            <column name="phone" value="+1234567898"/>
+            <column name="ssn" value="777-88-9999"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b12"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column name="id" value="4c6a5b7d-9f2e-4c6b-85a7-d2e8c9b4a1c0"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="tax_code" value="TAX010"/>
+            <column name="first_name" value="Liam"/>
+            <column name="last_name" value="Thomas"/>
+            <column name="email" value="liam.thomas@example.com"/>
+            <column name="address" value="707 Walnut St, City, Country"/>
+            <column name="phone" value="+1234567899"/>
+            <column name="ssn" value="888-99-0000"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="manager_id" value="b5f8c2d7-0a6b-4f1b-9c7e-d5f8c2a6b7e9"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

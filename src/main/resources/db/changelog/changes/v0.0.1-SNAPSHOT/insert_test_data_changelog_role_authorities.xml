@@ -1,0 +1,33 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="insert-role-authority-mapping" author="evgenijdomagaev (generated)">
+        <insert tableName="roles_authorities">
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b13"/>
+            <column name="authority_id" value="10c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b12"/>
+        </insert>
+        <insert tableName="roles_authorities">
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b13"/>
+            <column name="authority_id" value="10c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b13"/>
+        </insert>
+        <insert tableName="roles_authorities">
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b13"/>
+            <column name="authority_id" value="10c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b14"/>
+        </insert>
+        <insert tableName="roles_authorities">
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b15"/>
+            <column name="authority_id" value="10c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b15"/>
+        </insert>
+        <insert tableName="roles_authorities">
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b15"/>
+            <column name="authority_id" value="10c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b16"/>
+        </insert>
+        <insert tableName="roles_authorities">
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b15"/>
+            <column name="authority_id" value="10c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b17"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

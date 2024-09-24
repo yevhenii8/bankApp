@@ -1,0 +1,29 @@
+2024-09-16 22:29:01 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8330b77b-d08d-4a96-8b57-b973a437a26c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-16 22:30:15 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e4c3063d-57e8-4a77-98fd-7ac48660462c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-16 22:52:32 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c2cbdbe1-e8c4-4347-b0bd-5e22d3406e9c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-16 22:54:04 [http-nio-8080-exec-3] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-16 22:54:09 [http-nio-8080-exec-5] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-16 22:54:23 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f39fe27b-f2d3-4edc-8062-a2d6c4806590
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-16 22:54:38 [http-nio-8080-exec-5] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-16 22:54:45 [http-nio-8080-exec-7] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-16 22:55:00 [http-nio-8080-exec-9] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt

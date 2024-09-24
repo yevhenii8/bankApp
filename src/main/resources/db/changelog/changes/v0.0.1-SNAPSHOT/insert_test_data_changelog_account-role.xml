@@ -1,0 +1,17 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="insert-account-role-mapping" author="evgenijdomagaev (generated)">
+        <insert tableName="accounts_roles">
+            <column name="account_id" value="4f8e1b1d-482d-4f51-9b16-64f6274c019e"/>
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b13"/>
+        </insert>
+        <insert tableName="accounts_roles">
+            <column name="account_id" value="f7d82e3a-962f-44f4-89ee-9c37b4a6e14c"/>
+            <column name="role_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b15"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

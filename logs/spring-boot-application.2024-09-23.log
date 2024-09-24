@@ -1,0 +1,46 @@
+2024-09-23 00:37:23 [http-nio-8080-exec-5] ERROR o.d.bankapp.aspect.LogginingAspect - Request throw an exception. Cause - [1225e6d8-2ae0-4d09-b35c-6e6b540b7cf0]. Account not found
+2024-09-23 00:37:50 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 567ed160-39ae-43b4-8b97-a0db7969b138
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-23 00:37:51 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-23 00:37:51 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-23 00:38:57 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2aa32bf3-5a93-451e-a3e9-bb3f8696d383
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-23 00:45:03 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 09c2805d-4276-4021-9fd6-a661645d7b91
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-23 00:45:32 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 004900f3-aee8-4f3b-a6ea-cad7fdff13c2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-23 12:03:40 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ac782f45-ad59-4ccb-bae5-d60b1bbc1e33
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+

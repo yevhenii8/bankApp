@@ -1,0 +1,249 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="insert-agreements-table" author="evgenijdomagaev (generated)">
+        <insert tableName="agreements">
+            <column name="id" value="e7b9c46b-12d5-41eb-b0e4-bc5b77c44a56"/>
+            <column name="interest_rate" value="5.00"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="10000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="4f8e1b1d-482d-4f51-9b16-64f6274c019e"/>
+            <column name="product_id" value="b3f6d9e1-4c2a-4e8b-9a7e-6c8d5f3a1e9c"/>
+            <column name="manager_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b12"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="a6d4b3c2-d5a4-4b3e-9628-d7ed7c4a07e5"/>
+            <column name="interest_rate" value="4.50"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="15000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="f7d82e3a-962f-44f4-89ee-9c37b4a6e14c"/>
+            <column name="product_id" value="8c2d5a9b-4e1f-4b6e-87d1-3e9c5f7a2b3d"/>
+            <column name="manager_id" value="b5f8c2d7-0a6b-4f1b-9c7e-d5f8c2a6b7e9"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="8b1c3e7f-06d6-4203-93b6-b5d95a31cb2e"/>
+            <column name="interest_rate" value="3.75"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="20000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="3b34d3ea-2c1b-4c57-a11c-cd05c5f54b88"/>
+            <column name="product_id" value="d5e9f3c1-2a4b-4d8e-9c7a-6f1b2d3e8c4e"/>
+            <column name="manager_id" value="a8e3d7f6-4d8b-4c2e-85b1-1a6c5f2d9c73"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="d6f98e5c-9cf5-4e56-8c5b-8e8de5829d78"/>
+            <column name="interest_rate" value="6.00"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="25000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="b6f6b85e-42e1-46d0-9c5e-84f4fc2d2052"/>
+            <column name="product_id" value="7a6b9c4d-2e3f-4e1a-85d9-3c2e6f7b8a1d"/>
+            <column name="manager_id" value="c2d9b3e8-5d7a-4e6f-9b4c-7e8a2b1d3f7a"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="ad256b6b-f5e3-4a4a-9cf6-4d1baf5d3c7f"/>
+            <column name="interest_rate" value="5.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="30000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="c89fc5f2-ef70-4e43-a8a4-6b68bfe7b2a0"/>
+            <column name="product_id" value="c1d2e3f4-6b7a-4e8c-9d5a-8e1f2c3b9d7e"/>
+            <column name="manager_id" value="6e5a9d7b-8c4f-4d1b-a3e9-5f2c7a8b1d3e"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="f17b42e4-cc65-4cde-8b3a-1d3cf37f873b"/>
+            <column name="interest_rate" value="4.75"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="35000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="7a7b56e1-5a7a-44b0-83ee-45f0568f1d83"/>
+            <column name="product_id" value="5d9c4e1a-2b7e-4f6b-8c3a-1e9f2d7b5c4e"/>
+            <column name="manager_id" value="4f2d9e8c-6b1a-4d7e-8a3b-9e5c7f1b2d4c"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="4f5c1b3e-2a0c-4d69-bae1-f0de9d1d8d4d"/>
+            <column name="interest_rate" value="3.50"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="40000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="f0e7d4e4-8c8c-4c48-9182-50ef2d45722c"/>
+            <column name="product_id" value="9a7b5c2d-4e1f-4d8e-6c3a-2e9f7b1c8d5e"/>
+            <column name="manager_id" value="9d6e5c8b-1a3f-4e2d-8c7b-5f9a2d3e6b1c"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="b0eaf3e7-8650-4b9a-953f-046c5e2db9d3"/>
+            <column name="interest_rate" value="6.50"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="45000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="b83d7d57-3c56-4d44-b3d5-0e4a4e7b626b"/>
+            <column name="product_id" value="d4e8f3a1-2c6b-4e7d-9b5a-8c1d2f9e7b3e"/>
+            <column name="manager_id" value="a7b2c5d9-4e6f-4d1b-8e3a-7c9b2f5d1e8e"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="d279c8e1-743b-456a-a165-d0c1a5d76d3d"/>
+            <column name="interest_rate" value="5.75"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="50000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="2d1b6f5c-97ac-462e-9e1a-2b739b492a86"/>
+            <column name="product_id" value="6b9a2d5e-4c3f-4e8d-1a7b-9c2e5f3d8c1e"/>
+            <column name="manager_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b12"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="8d6b9b8e-c3b9-4a42-bf3d-00a2a9bb9e1b"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="d3d5f6b3-35c1-4b80-92c2-94f72a95c5f7"/>
+            <column name="product_id" value="b3f6d9e1-4c2a-4e8b-9a7e-6c8d5f3a1e9c"/>
+            <column name="manager_id" value="b5f8c2d7-0a6b-4f1b-9c7e-d5f8c2a6b7e9"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="2c7f6e5b-63d4-4e2e-8b1c-cd8d66a57d36"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="4d10b0c1-0702-4ad4-bc3b-9d91d3a25b2c"/>
+            <column name="product_id" value="8c2d5a9b-4e1f-4b6e-87d1-3e9c5f7a2b3d"/>
+            <column name="manager_id" value="a8e3d7f6-4d8b-4c2e-85b1-1a6c5f2d9c73"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="b6c5e7d0-7f29-4e5c-8c53-d9d5e1e6b6d2"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="bf0b39a8-d50b-4b67-b48f-e71f03260d56"/>
+            <column name="product_id" value="d5e9f3c1-2a4b-4d8e-9c7a-6f1b2d3e8c4e"/>
+            <column name="manager_id" value="c2d9b3e8-5d7a-4e6f-9b4c-7e8a2b1d3f7a"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="7d79d5a1-f7e8-4e8d-846b-209d88b0870d"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="12b5e6d8-2ae0-4d09-b35c-6e6b540b7cf0"/>
+            <column name="product_id" value="7a6b9c4d-2e3f-4e1a-85d9-3c2e6f7b8a1d"/>
+            <column name="manager_id" value="6e5a9d7b-8c4f-4d1b-a3e9-5f2c7a8b1d3e"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="3e9a8f1e-0c5c-4c3b-89d7-4e98b56597f7"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="7c27c9e7-8937-423f-8d71-9f1d5804c9d2"/>
+            <column name="product_id" value="c1d2e3f4-6b7a-4e8c-9d5a-8e1f2c3b9d7e"/>
+            <column name="manager_id" value="4f2d9e8c-6b1a-4d7e-8a3b-9e5c7f1b2d4c"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="6a0d5e6a-43f9-44b8-bcc3-7c9899c92711"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="1a6c1d62-4b2d-4d7f-b0dc-bcbd8d4f2d08"/>
+            <column name="product_id" value="5d9c4e1a-2b7e-4f6b-8c3a-1e9f2d7b5c4e"/>
+            <column name="manager_id" value="9d6e5c8b-1a3f-4e2d-8c7b-5f9a2d3e6b1c"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="a7e0c1d2-68d3-4c4a-918e-bfa8b0e6e8d7"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="4f8e1b1d-482d-4f51-9b16-64f6274c019e"/>
+            <column name="product_id" value="9a7b5c2d-4e1f-4d8e-6c3a-2e9f7b1c8d5e"/>
+            <column name="manager_id" value="a7b2c5d9-4e6f-4d1b-8e3a-7c9b2f5d1e8e"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="c0a2f6d1-7b51-4f1b-939d-c31d3b1d5d65"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="f7d82e3a-962f-44f4-89ee-9c37b4a6e14c"/>
+            <column name="product_id" value="d4e8f3a1-2c6b-4e7d-9b5a-8c1d2f9e7b3e"/>
+            <column name="manager_id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b12"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="e5c5d8b7-2a9e-41e4-a7b2-4c2a3e1d3b71"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="3b34d3ea-2c1b-4c57-a11c-cd05c5f54b88"/>
+            <column name="product_id" value="6b9a2d5e-4c3f-4e8d-1a7b-9c2e5f3d8c1e"/>
+            <column name="manager_id" value="b5f8c2d7-0a6b-4f1b-9c7e-d5f8c2a6b7e9"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="8d1e7a6c-d6f7-4a4f-a9d4-9e3d2d1e0b6f"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="b6f6b85e-42e1-46d0-9c5e-84f4fc2d2052"/>
+            <column name="product_id" value="b3f6d9e1-4c2a-4e8b-9a7e-6c8d5f3a1e9c"/>
+            <column name="manager_id" value="a8e3d7f6-4d8b-4c2e-85b1-1a6c5f2d9c73"/>
+        </insert>
+
+        <insert tableName="agreements">
+            <column name="id" value="f8b0d1a4-0f6e-43f3-a9f0-c4a4d2b7a9c6"/>
+            <column name="interest_rate" value="4.25"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="sum" value="55000.00"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="account_id" value="c89fc5f2-ef70-4e43-a8a4-6b68bfe7b2a0"/>
+            <column name="product_id" value="8c2d5a9b-4e1f-4b6e-87d1-3e9c5f7a2b3d"/>
+            <column name="manager_id" value="c2d9b3e8-5d7a-4e6f-9b4c-7e8a2b1d3f7a"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

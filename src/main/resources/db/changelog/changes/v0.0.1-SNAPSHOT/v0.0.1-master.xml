@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/create-tables-changelog.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_accounts.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_agreements.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_authorities.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_clients.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_managers.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_products.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_roles.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_transactions.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_role_authorities.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/insert_test_data_changelog_account-role.xml" />
+    <include file="db/changelog/changes/v0.0.1-SNAPSHOT/create-fk-relationship.xml" />
+</databaseChangeLog>

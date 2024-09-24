@@ -1,0 +1,89 @@
+2024-09-19 22:41:46 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: eccd342a-d4b2-4774-9a1e-c77227f3f5af
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-19 22:42:43 [http-nio-8080-exec-5] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-19 22:43:21 [http-nio-8080-exec-8] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-19 22:44:03 [http-nio-8080-exec-1] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-19 22:44:38 [http-nio-8080-exec-4] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-19 22:49:57 [http-nio-8080-exec-7] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-19 23:09:47 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c21ea275-ce74-499b-ba4b-af86c6071515
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-19 23:11:14 [http-nio-8080-exec-3] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-09-19 23:15:59 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1b461824-e201-44a0-b0aa-e1a3adf61716
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-19 23:18:30 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'configure' must not be declared as void; change the method's return type or its annotation.
+Offending resource: class path resource [org/domahaiev/bankapp/config/SecurityConfig.class]
+2024-09-19 23:18:30 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'configure' must not be declared as void; change the method's return type or its annotation.
+Offending resource: class path resource [org/domahaiev/bankapp/config/SecurityConfig.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.BeanMethod.validate(BeanMethod.java:47)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:219)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at org.domahaiev.bankapp.BankAppApplication.main(BankAppApplication.java:13)
+2024-09-19 23:20:11 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'configure' must not be declared as void; change the method's return type or its annotation.
+Offending resource: class path resource [org/domahaiev/bankapp/config/SecurityConfig.class]
+2024-09-19 23:20:11 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Bean method 'configure' must not be declared as void; change the method's return type or its annotation.
+Offending resource: class path resource [org/domahaiev/bankapp/config/SecurityConfig.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.BeanMethod.validate(BeanMethod.java:47)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:219)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at org.domahaiev.bankapp.BankAppApplication.main(BankAppApplication.java:13)
+2024-09-19 23:22:07 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b6a48ee4-faf1-4d22-baad-aab888e23716
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-19 23:22:29 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-09-19 23:22:47 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-09-19 23:22:49 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-09-19 23:34:03 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cd4ae4ac-9d34-47cd-8360-a3e3a383bcd0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-19 23:39:52 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bff29f37-8a93-4538-a0e3-57eda6cfcb01
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+

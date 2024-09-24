@@ -1,0 +1,88 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="insert-managers-table" author="evgenijdomagaev (generated)">
+        <insert tableName="managers">
+            <column name="id" value="d0c2e8b1-3b4e-4e7a-9d63-9e6d9b3e1b12"/>
+            <column name="ssn" value="429-40-2011"/>
+            <column name="first_name" value="John"/>
+            <column name="last_name" value="Doe"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+
+        <insert tableName="managers">
+            <column name="id" value="b5f8c2d7-0a6b-4f1b-9c7e-d5f8c2a6b7e9"/>
+            <column name="ssn" value="431-32-1950"/>
+            <column name="first_name" value="Jane"/>
+            <column name="last_name" value="Smith"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+
+        <insert tableName="managers">
+            <column name="id" value="a8e3d7f6-4d8b-4c2e-85b1-1a6c5f2d9c73"/>
+            <column name="ssn" value="431-99-2011"/>
+            <column name="first_name" value="Alice"/>
+            <column name="last_name" value="Johnson"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+
+        <insert tableName="managers">
+            <column name="id" value="c2d9b3e8-5d7a-4e6f-9b4c-7e8a2b1d3f7a"/>
+            <column name="ssn" value="432-46-1950"/>
+            <column name="first_name" value="Bob"/>
+            <column name="last_name" value="Brown"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+
+        <insert tableName="managers">
+            <column name="id" value="6e5a9d7b-8c4f-4d1b-a3e9-5f2c7a8b1d3e"/>
+            <column name="ssn" value="430-88-1950"/>
+            <column name="first_name" value="Charlie"/>
+            <column name="last_name" value="Davis"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+
+        <insert tableName="managers">
+            <column name="id" value="4f2d9e8c-6b1a-4d7e-8a3b-9e5c7f1b2d4c"/>
+            <column name="ssn" value="431-26-2011"/>
+            <column name="first_name" value="Diana"/>
+            <column name="last_name" value="Evans"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+
+        <insert tableName="managers">
+            <column name="id" value="9d6e5c8b-1a3f-4e2d-8c7b-5f9a2d3e6b1c"/>
+            <column name="ssn" value="430-69-1950"/>
+            <column name="first_name" value="Eve"/>
+            <column name="last_name" value="Foster"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+
+        <insert tableName="managers">
+            <column name="id" value="a7b2c5d9-4e6f-4d1b-8e3a-7c9b2f5d1e8e"/>
+            <column name="ssn" value="432-71-2011"/>
+            <column name="first_name" value="Eve"/>
+            <column name="last_name" value="Foster"/>
+            <column name="status" value="ACTIVE"/>
+            <column name="created_at" valueDate="2024-07-29T00:00:00"/>
+            <column name="updated_at" valueDate="2024-07-29T00:00:00"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
